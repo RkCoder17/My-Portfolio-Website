@@ -1,9 +1,9 @@
 import React from 'react';
 import './about.css';
-import ME from '../../assets/11.jpg';
-import {FaAward} from 'react-icons/fa';
-import {FiUsers} from 'react-icons/fi';
-import {VscFolderLibrary} from 'react-icons/vsc'
+import ME from '../../assets/rk123.png';
+// import {FaAward} from 'react-icons/fa';
+// import {FiUsers} from 'react-icons/fi';
+// import {VscFolderLibrary} from 'react-icons/vsc'
 const About = () => {
   return (
   <section id='about'>
@@ -43,7 +43,7 @@ const About = () => {
      <br></br>I enjoy working on projects in a team full of excited people who wants to learn and grow like me and In order to keep learning new things, I am always looking for projects and opportunities that will help me learn and upskill better. 
   </p>
 
-  <a href ="contact" className='btn btn-primary'>Let's Talk</a> 
+  {/* <a href ="contact" className='btn btn-primary'>Let's Talk</a>  */}
   </div>
   </div>
     </section>

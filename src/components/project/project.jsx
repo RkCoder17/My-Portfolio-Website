@@ -1,115 +1,43 @@
 import React from 'react'
 import './project.css'
-import {BsPatchCheckFill} from 'react-icons/bs';
-
+import IMG1 from '../../assets/11.jpg'
+import IMG2 from '../../assets/11.jpg'
+import IMG3 from '../../assets/11.jpg'
 const project = () => {
   return (
-    <section id='experience'>
-    <h5>My Projects</h5>
-    <h2>Projects</h2>
+   <section id="portfolio">
+   <h5>My Recent Work</h5>
+   <h2>PortFolio</h2>
 
-    <div className="container experience__container">
-      <div className="experience__frontend">
-        <h3>Frontend Development</h3>
-        <div className="experience__content">
-          <article className="experience_details">
-          <BsPatchCheckFill className="experience__details-icon" />
-          <div>
-          <h4>HTML</h4>
-          <small className="text-light">Experienced</small>
-          </div>
-          </article>
-          <article className="experience_details">
-          <BsPatchCheckFill className="experience__details-icon" />
-          <div>
-          <h4>HTML</h4>
-          <small className="text-light">Experienced</small>
-          </div>
-          </article>
-          <article className="experience_details">
-          <BsPatchCheckFill className="experience__details-icon" />
+   <div className='container portfolio__container'>
+     <article className='portfolio__item'>
+       <div className='portfolio__item-image'>
+         <img src={IMG1} alt="" /> 
+       </div>
+       <h3>Title</h3>
+       <a href="https://github.com" className="btn" rel="noreferrer" target='_blank'>Github</a>
+       <a href="https://github.com" className="btn btn-primary" rel="noreferrer" target='_blank'>Live Demo</a>
+     </article>
 
-          <div>
-          <h4>HTML</h4>
-          <small className="text-light">Experienced</small>
-          </div>
-          </article>
-          <article className="experience_details">
-          <BsPatchCheckFill className="experience__details-icon" />
-
-          <div>
-          <h4>HTML</h4>
-          <small className="text-light">Experienced</small>
-          </div></article>
-          <article className="experience_details">
-          <BsPatchCheckFill className="experience__details-icon" />
-
-          <div>
-          <h4>HTML</h4>
-          <small className="text-light">Experienced</small>
-          </div></article>
-          <article className="experience_details">
-          <BsPatchCheckFill className="experience__details-icon" />
-
-          <div>
-          <h4>HTML</h4>
-          <small className="text-light">Experienced</small>
-          </div></article>
-        </div>
-      </div>
-
-    <div className="experience__backend">
-    <h3>Frontend Development</h3>
-        <div className="experience__content">
-          <article className="experience_details">
-          <BsPatchCheckFill className="experience__details-icon" />
-
-          <div>
-          <h4>HTML</h4>
-          <small className="text-light">Experienced</small>
-          </div>
-          </article>
-          <article className="experience_details">
-          <BsPatchCheckFill className="experience__details-icon" />
-
-          <div>
-          <h4>HTML</h4>
-          <small className="text-light">Intermediate</small>
-          </div></article>
-          <article className="experience_details">
-          <BsPatchCheckFill className="experience__details-icon" />
-
-          <div>
-          <h4>HTML</h4>
-          <small className="text-light">Experienced</small>
-          </div></article>
-          <article className="experience_details">
-          <BsPatchCheckFill className="experience__details-icon" />
-
-          <div>
-          <h4>HTML</h4>
-          <small className="text-light">Experienced</small>
-          </div></article>
-          <article className="experience_details">
-          <BsPatchCheckFill className="experience__details-icon" />
-
-          <div>
-          <h4>HTML</h4>
-          <small className="text-light">Experienced</small>
-          </div>
-          </article>
-          <article className="experience_details">
-          <BsPatchCheckFill className="experience__details-icon" />
-
-          <div>
-          <h4>HTML</h4>
-          <small className="text-light">Experienced</small>
-          </div></article>
-        </div>
-        </div>
-    </div>
-    </section>
-
+     <article className='portfolio__item'>
+       <div className='portfolio__item-image'>
+         <img src={IMG2} alt="" /> 
+       </div>
+       <h3>Title</h3>
+       <a href="https://github.com" className="btn" rel="noreferrer" target='_blank'>Github</a>
+       <a href="https://github.com" className="btn btn-primary" rel="noreferrer" target='_blank'>Live Demo</a>
+     </article>
+     
+     <article className='portfolio__item'>
+       <div className='portfolio__item-image'>
+         <img src={IMG3} alt="" /> 
+       </div>
+       <h3>Title</h3>
+       <a href="https://github.com" className="btn" rel="noreferrer" target='_blank'>Github</a>
+       <a href="https://github.com" className="btn btn-primary" rel="noreferrer" target='_blank'>Live Demo</a>
+     </article>
+   </div>
+ </section>
   )
 }
 
