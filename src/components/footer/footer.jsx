@@ -6,26 +6,25 @@ import './footer.css'
 const footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">ROHAN</a>
+      <a href="#c" className="footer__logo">ROHAN</a>
 
       <ul className='permalinks'>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Experience</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Resume</a></li>
+        <li><a href="#s">Home</a></li>
+        <li><a href="#contact">About</a></li>
+        <li><a href="#contact">Experience</a></li>
+          <li><a href="#s">Projects</a></li>
+        <li><a href="#s">Contact</a></li>
+        <li><a href="#s">Resume</a></li>
       </ul>
 
-      <div className="footer__socials">
+      {/* <div className="footer__socials">
         <a href="https://facebook.com"><FaFacebookF/></a>
         <a href="https://instagram.com"><FiInstagram/></a>
         <a href="https://twitter.com"><IoLogoTwitter/></a>
-      </div>
+      </div> */}
       
       <div className="footer__copyrights">
-        <small>&copy; Rohan Khandelwal</small>
+        <small> Designed By Rohan Khandelwal</small>
       </div>
 
     </footer>
@@ -34,3 +33,4 @@ const footer = () => {
 
 export default footer
 
+//&copy; for copyright symbol

@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import ME from '../../assets/m1.jpeg';
+// import ME from '../../assets/rk2.png';
 import {FaAward} from 'react-icons/fa';
 import {FiUsers} from 'react-icons/fi';
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -12,13 +12,13 @@ const About = () => {
   <div className ="container about__container"> 
   <div className ="about__me"> 
   <div className= " about__me-image">
-    <img src={ME} alt="About" />
+    {/* <img src={ME} alt="About" /> */}
   </div>
 
   </div>
   <div className="about__content">
   <div className="about__cards">
-  <article className= "about__card">
+  {/* <article className= "about__card">
   <FaAward className="about__icon"/>
   <h5>Experience</h5>
   <small>3+ Years Working</small>
@@ -37,12 +37,10 @@ const About = () => {
   <h5>Projects</h5>
   <small>80+ Completed Projects</small>
 
-  </article>
+  </article> */}
   </div>
-  <p> lorem30
- jfhsfbj jhdfhgsjf ghgu gfghsfuygsdjfgyudsggyug udgfjsd fjgdsuyfg sdjg 
- uygdfgsudgfjdsgfyu ugfhgfjhs fyugfs gsfgu dsufgjhdsgf sduysgfsd uygsdf sdh uyguyguyd 
- fudsytf sd figj ibsdfhgsdjf j jufigsd nsdbfjgiuh jbftgjsfks usdgfjs dfiusdgfs 
+  <p> Hello, I am a Web Developer. Worked on different technologies for developing various solutions on the web to bring the best digital experiences to the user.
+     <br></br>I enjoy working on projects in a team full of excited people who wants to learn and grow like me and In order to keep learning new things, I am always looking for projects and opportunities that will help me learn and upskill better. 
   </p>
 
   <a href ="contact" className='btn btn-primary'>Let's Talk</a> 

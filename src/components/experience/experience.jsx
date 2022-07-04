@@ -15,30 +15,30 @@ const experience = () => {
           <BsPatchCheckFill className="experience__details-icon" />
           <div>
           <h4>HTML</h4>
-          <small className="text-light">Experienced</small>
+          {/* <small className="text-light">Intermediate</small> */}
           </div>
           </article>
           <article className="experience_details">
           <BsPatchCheckFill className="experience__details-icon" />
           <div>
-          <h4>HTML</h4>
-          <small className="text-light">Experienced</small>
-          </div>
-          </article>
-          <article className="experience_details">
-          <BsPatchCheckFill className="experience__details-icon" />
-
-          <div>
-          <h4>HTML</h4>
-          <small className="text-light">Experienced</small>
+          <h4>CSS</h4>
+          {/* <small className="text-light">Intermediate</small> */}
           </div>
           </article>
           <article className="experience_details">
           <BsPatchCheckFill className="experience__details-icon" />
 
           <div>
-          <h4>HTML</h4>
-          <small className="text-light">Experienced</small>
+          <h4>React Js</h4>
+          {/* <small className="text-light">Experienced</small> */}
+          </div>
+          </article>
+          <article className="experience_details">
+          <BsPatchCheckFill className="experience__details-icon" />
+
+          <div>
+          <h4>JavaScript</h4>
+          {/* <small className="text-light">Experienced</small> */}
           </div></article>
           <article className="experience_details">
           <BsPatchCheckFill className="experience__details-icon" />
@@ -54,10 +54,11 @@ const experience = () => {
           <h4>HTML</h4>
           <small className="text-light">Experienced</small>
           </div></article>
+          
         </div>
       </div>
 
-    <div className="experience__backend">
+    {/* <div className="experience__backend">
     <h3>Frontend Development</h3>
         <div className="experience__content">
           <article className="experience_details">
@@ -105,7 +106,7 @@ const experience = () => {
           <small className="text-light">Experienced</small>
           </div></article>
         </div>
-        </div>
+        </div> */}
     </div>
     </section>
   )
