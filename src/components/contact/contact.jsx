@@ -35,7 +35,7 @@ const Contact = () => {
           <a href="wa.me+919462842148">Send a Message</a>
         </article> 
         </div>
-        <form ref={form} on onSubmit={sendEmail}>
+        <form ref={form} on onSubmit={sendEmail} method="post">
           <input type="text" name="name" placeholder="Your Full Name" required />
           <input type="email" name="email" placeholder="Your Email" required />
           <textarea name="message" rows="7" placeholder="Your Message" required />
