@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio-Website/static/css/main.6167ca30.css",
+    "main.js": "/My-Portfolio-Website/static/js/main.ab190389.js",
+    "static/media/Rohan Resume.pdf": "/My-Portfolio-Website/static/media/Rohan Resume.06a4e48bdf43081b2b6f.pdf",
+    "static/media/bg.png": "/My-Portfolio-Website/static/media/bg.962f74ca0942c297189e.png",
+    "index.html": "/My-Portfolio-Website/index.html",
+    "main.6167ca30.css.map": "/My-Portfolio-Website/static/css/main.6167ca30.css.map",
+    "main.ab190389.js.map": "/My-Portfolio-Website/static/js/main.ab190389.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6167ca30.css",
+    "static/js/main.ab190389.js"
+  ]
+}
