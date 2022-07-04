@@ -3,18 +3,17 @@ import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {BsWhatsapp} from 'react-icons/bs'
 import { useRef } from 'react';
-import emailjs from 'emailjs-com'
+import emailjs from 'emailjs/browser';
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs.sendForm('service_26hdenw', 'template_b9kw7v8', form.current, '-veW8fUyT8VjdVDOl')
+    emailjs.sendForm('service_26hdenw', 'templ                                              ate_b9kw7v8', form.current, '-veW8fUyT8VjdVDOl')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
-      });
+      });                                                                                                       
   }; 
   return (
     <section id="contact">
